@@ -2,13 +2,13 @@ package Praktikum1;
 
 public class Person {
 
-	
+	//Variablen festlegen
 	private String name;
 	private String vorname;
 	private String adresse;
 	private String wohnort;
 	
-	
+	//Getter und Setter deklarieren
 	public String getName() {
 		return name;
 	}
@@ -40,7 +40,8 @@ public class Person {
 		this.wohnort = wohnort;
 	}
 	
-	
+
+	//Konstruktor deklarieren
 	public Person(String name, String vorname, String adresse, String wohnort) {
 		this.name = name;
 		this.vorname = vorname;
