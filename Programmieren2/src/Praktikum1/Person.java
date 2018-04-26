@@ -2,54 +2,50 @@ package Praktikum1;
 
 public class Person {
 
+	
 	private String name;
 	private String vorname;
 	private String adresse;
-	private String ort;
-	private String vorlesung;
+	private String wohnort;
 	
-
-	public void setName(String n){
-		name = n;
-	}	
-	public String getName(){
-		return this.name;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	
-	
-	public void setVorname(String vn) {
-		vorname = vn;
-	}
 	public String getVorname() {
-		return this.vorname;
+		return vorname;
+	}
+	public void setVorname(String vorname) {
+		this.vorname = vorname;
 	}
 	
 	
-	
-	public void setAdresse(String a) {
-		adresse = a;
-	}
 	public String getAdresse() {
-		return this.adresse;
+		return adresse;
 	}
-	
-
-	
-	public void setOrt(String o) {
-		ort = o;
-	}
-	public String setOrt() {
-		return this.ort;
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
 	}
 	
 	
-	public void setVorlesung(String v) {
-		vorlesung = v;
+	public String getWohnort() {
+		return wohnort;
 	}
-	public String setVorlesung() {
-		return this.vorlesung;
+	public void setWohnort(String wohnort) {
+		this.wohnort = wohnort;
 	}
 	
-
+	
+	public Person(String name, String vorname, String adresse, String wohnort) {
+		this.name = name;
+		this.vorname = vorname;
+		this.adresse = adresse;
+		this.wohnort = wohnort;
+	}
+	
 }
