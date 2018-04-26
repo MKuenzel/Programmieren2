@@ -6,6 +6,8 @@ public class Main {
 		
 		//Implementierung und Ausgabe des Objekts Student
 		Student s_eins = new Student("Mustermann", "Max", "Musterstraße", "Musterort", 88736514, 4);
+		System.out.println("Student");
+		System.out.println("-------");
 		System.out.println("Vorname: " + s_eins.getVorname());
 		System.out.println("Nachname: " + s_eins.getName());
 		System.out.println("Adresse: " + s_eins.getAdresse());
@@ -21,6 +23,8 @@ public class Main {
 		
 		//Implementierung und Ausgabe des Objekts Professor
 		Professor p_eins = new Professor("Prof", "Dr.", "Musterstraße", "Musterort", 7);
+		System.out.println("Professor");
+		System.out.println("---------");
 		System.out.println("Vorname: " + p_eins.getVorname());
 		System.out.println("Nachname: " + p_eins.getName());
 		System.out.println("Adresse: " + p_eins.getAdresse());
@@ -35,6 +39,8 @@ public class Main {
 		
 		//Implementierung und Ausgabe des Objekts Hörsaal
 		Hoersaal h_eins = new Hoersaal("Programmieren - Vorlesung", 300);
+		System.out.println("Hörsaal");
+		System.out.println("-------");
 		System.out.println(h_eins.getVorlesung());
 		System.out.println(h_eins.getPlaetze() + " Plätze ");
 		//Schleife um die Anzahl der Sitzplätze zu überprüfen
