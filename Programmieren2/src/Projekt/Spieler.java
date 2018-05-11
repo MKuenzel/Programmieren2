@@ -2,7 +2,7 @@ package Projekt;
 
 public class Spieler {
 	
-	//Variablen deklaration
+	//Variablen deklaration.
 	String farbe;
 	int spielerzug;
 
